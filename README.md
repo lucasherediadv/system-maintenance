@@ -6,7 +6,7 @@ Regular system maintenance is crucial for ensuring the stability, performance, a
 
 List systemd units.
 ```
-systemctl 
+systemctl
 systemctl list-units
 ```
 
@@ -25,7 +25,7 @@ Check unit status
 systemctl status <unit>
 ```
 
-Check for any services taht have failed to start or are in a failed state.
+Check for any services that have failed to start or are in a failed state.
 ```
 systemctl --failed
 ```
@@ -64,7 +64,7 @@ Kernel messages
 journalctl --dmesg
 ```
 
-> Additionally, manually inspect log files located in /var/log/ for any irregularities or error messages. 
+> Additionally, manually inspect log files located in /var/log/ for any irregularities or error messages.
 
 ## Pacman
 
