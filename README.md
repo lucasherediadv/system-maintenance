@@ -12,7 +12,7 @@ systemctl list-units
 
 List masked systemd units.
 ```
-systemctl-unit-files
+systemctl list-unit-files
 ```
 
 Show locations and content of configuration files.
@@ -32,8 +32,8 @@ systemctl --failed
 
 Startup time
 ```
-system-analyze
-system-analyze blame
+systemd-analyze
+systemd-analyze blame
 ```
 
 ## Logging
